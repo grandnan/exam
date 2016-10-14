@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>jQuery Mobile</title>
+</head>
+<link rel="stylesheet" href="./css/jquery.mobile-1.4.5.min.css" media="screen" title="no title">
+<script src="./js/jquery-1.12.4.min.js"></script>
+<script src="./js/jquery.mobile-1.4.5.min.js"></script>
+<script type="text/javascript">
+
+</script>
+<body>
+  <div data-role='page' id="page1">
+    <div data-role="header" data-position="fixed"><h1>这是Moble</h1></div>
+
+    <button type="button" name="button" data-mini="true" data-icon="arrow-l" data-iconpos="right" >左箭头图标</button>
+    <button type="button" name="button" data-mini="true" data-icon="arrow-r" data-iconpos="right">右箭头图标</button>
+    <button type="button" name="button" data-mini="true" data-icon="arrow-u" data-iconpos="right">上箭头图标</button>
+    <button type="button" name="button" data-mini="true" data-icon="arrow-d" data-iconpos="right">下箭头图标</button>
+    <button type="button" name="button" data-mini="true" data-icon="Plus" data-iconpos="right">加号图标</button>
+    <button type="button" name="button" data-mini="true" data-icon="minus" data-iconpos="right">减号图标</button>
+    <button type="button" name="button" data-mini="true" data-icon="delete" data-iconpos="right" >删除图标</button>
+    <button type="button" name="button" data-mini="true" data-icon="Check" data-iconpos="right">检查图标</button>
+    <div role="main">
+
+  　<div data-role="controlgroup" data-type="horizontal">
+    <a href="#page2" data-role="button"　data-icon="bars" data-iconpos="notext" data-theme="a" data-inline="true">微信</a>
+    <a href="#page3" data-role="button">通讯录</a>
+    <a href="#page4" data-role="button">发现</a>
+    <a href="#page5" data-role="button">我</a>
+  　</div>
+  <div data-role="popup" id="page1">
+    <a href="#popupBasic" data-rel="popup">open popup</a>
+    <div data-role="popup" id="popupBasic">
+
+    </div>
+  </div>
+
+
+    </div>
+    <div data-role="footer" data-position="fixed"><h4>界面1</h4></div>
+  </div>
+
+  <div data-role='page' id="page2">
+    <div data-role="header" data-position="fixed"><h1>这是Iphone</h1></div>
+    <div role="main">
+      <p>订阅号</p>
+      <p>内容2</p>
+      <p>内容2</p>
+      <p>内容2</p>
+      <a href="#page1" data-role="button">返回到第一页面</a>
+    </div>
+    <div data-role="footer" data-position="fixed"><h4>界面2</h4></div>
+  </div>
+
+  <div data-role='page' id="page3">
+    <div data-role="header" data-position="fixed"><h1>这是Iphone</h1></div>
+    <div role="main">
+      <p>新的朋友</p>
+      <p>群聊</p>
+      <p>标签</p>
+      <p>公众号</p>
+
+      <a href="#page1" data-role="button">返回到第一页面</a>
+    </div>
+    <div data-role="footer" data-position="fixed"><h4>界面2</h4></div>
+  </div>
+  <div data-role='page' id="page4">
+    <div data-role="header" data-position="fixed"><h1>这是Iphone</h1></div>
+    <div role="main">
+      <p>朋友圈</p>
+      <p>扫一扫</p>
+      <p>摇一摇</p>
+      <p>附近的人</p>
+      <p>漂流瓶</p>
+      <p>购物</p>
+      <a href="#page1" data-role="button">返回到第一页面</a>
+    </div>
+    <div data-role="footer" data-position="fixed"><h4>界面2</h4></div>
+  </div>
+
+  <div data-role='page' id="page5">
+    <div data-role="header" data-position="fixed"><h1>这是Iphone</h1></div>
+    <div role="main">
+      <p>相册</p>
+      <p>收藏</p>
+      <p>钱包</p>
+      <p>卡包</p>
+      <p>表情</p>
+      <p>设置</p>
+      <a href="#page1" data-role="button">返回到第一页面</a>
+    </div>
+    <div data-role="footer" data-position="fixed"><h4>界面2</h4></div>
+  </div>
+</body>
+</html>
